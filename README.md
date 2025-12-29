@@ -1,8 +1,9 @@
 # zustand-mmkv-storage
 
-[![npm version](https://badge.fury.io/js/%401mehdifaraji%2Fzustand-mmkv-storage.svg)](https://badge.fury.io/js/%401mehdifaraji%2Fzustand-mmkv-storage)
-[![npm downloads](https://img.shields.io/npm/dm/%401mehdifaraji%2Fzustand-mmkv-storage.svg)](https://www.npmjs.com/package/%401mehdifaraji%2Fzustand-mmkv-storage)
-[![License](https://img.shields.io/npm/l/%401mehdifaraji%2Fzustand-mmkv-storage.svg)](https://github.com/1mehdifaraji/zustand-mmkv-storage/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/zustand-mmkv-storage.svg)](https://www.npmjs.com/package/zustand-mmkv-storage)
+[![npm downloads](https://img.shields.io/npm/dm/zustand-mmkv-storage.svg)](https://www.npmjs.com/package/zustand-mmkv-storage)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/1mehdifaraji/zustand-mmkv-storage?style=social)](https://github.com/1mehdifaraji/zustand-mmkv-storage/stargazers)
 
 A fast, lightweight adapter to use [react-native-mmkv](https://github.com/mrousavy/react-native-mmkv) as the storage backend for [Zustand's persist middleware](https://github.com/pmndrs/zustand#persist-middleware).
 
@@ -31,6 +32,8 @@ pnpm add zustand-mmkv-storage zustand react-native-mmkv
 # or
 yarn add zustand-mmkv-storage zustand react-native-mmkv
 ```
+
+[View on npm](https://www.npmjs.com/package/zustand-mmkv-storage)
 
 ## After installation:
 
