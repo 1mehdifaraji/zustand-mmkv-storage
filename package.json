@@ -1,0 +1,56 @@
+{
+  "name": "zustand-mmkv-storage",
+  "version": "1.0.0",
+  "description": "Fast MMKV storage adapter for Zustand persist middleware in React Native",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "build": "tsc && rollup -c",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "keywords": [
+    "zustand",
+    "mmkv",
+    "react-native",
+    "persist",
+    "storage",
+    "zustand-persist",
+    "react-native-storage",
+    "persistent-storage",
+    "offline-storage",
+    "android",
+    "ios",
+    "fast-storage",
+    "mmkv-storage"
+  ],
+  "license": "MIT",
+  "author": "Mehdi Faraji <mahdifarajideveloper@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1mehdifaraji/zustand-mmkv-storage.git"
+  },
+  "homepage": "https://github.com/1mehdifaraji/zustand-mmkv-storage#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.3",
+    "@vitest/ui": "^4.0.16",
+    "jest": "^30.2.0",
+    "jsdom": "^27.4.0",
+    "rollup": "^4.54.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "peerDependencies": {
+    "react-native-mmkv": "^4.1.0",
+    "zustand": "^5.0.9"
+  }
+}
